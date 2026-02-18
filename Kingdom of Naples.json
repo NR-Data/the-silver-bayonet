@@ -1,0 +1,36 @@
+{
+  "catalogue": {
+    "name": "Kingdom of Naples (Bourbon)",
+    "id": "4424-455b-170e-9a43",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "f347-af68-8218-d8fc",
+    "gameSystemRevision": 6,
+    "library": false,
+    "page": 26,
+    "publicationId": "8413-013f-4c33-66cd",
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {"name": "Artillerist", "id": "ed6e-b333-8689-e2df", "hidden": false, "import": true, "targetId": "a926-b134-e050-fe94", "type": "selectionEntry"},
+      {"name": "Champion of Faith", "id": "9a6a-cccf-599e-a890", "hidden": false, "import": true, "targetId": "61bb-104c-0968-dd27", "type": "selectionEntry"},
+      {"name": "Doctor", "id": "7f6c-ddcd-c318-e295", "hidden": false, "import": true, "targetId": "91e3-d3b4-f375-2b64", "type": "selectionEntry"},
+      {"name": "Grenadier", "id": "cabe-a7a7-15b6-68b6", "hidden": false, "import": true, "targetId": "cc2b-e264-2288-ac0a", "type": "selectionEntry"},
+      {"name": "Infantryman", "id": "8714-3ae4-f819-a799", "hidden": false, "import": true, "targetId": "ebdd-e082-edfa-f12c", "type": "selectionEntry"},
+      {"name": "Irregular", "id": "975e-53e4-6baf-a9cf", "hidden": false, "import": true, "targetId": "da06-c63c-6c01-daf9", "type": "selectionEntry"},
+      {"name": "Junior Officer", "id": "0b5a-f0aa-a854-7bc1", "hidden": false, "import": true, "targetId": "8c28-34b0-5150-8657", "type": "selectionEntry"},
+      {"name": "Light Cavalryman", "id": "5a4c-1b33-334c-3932", "hidden": false, "import": true, "targetId": "a1d9-1d71-8c37-55d3", "type": "selectionEntry"},
+      {"name": "Native Scout", "id": "f41d-02e5-f38e-193f", "hidden": false, "import": true, "targetId": "a7f0-b273-9ea7-6838", "type": "selectionEntry"},
+      {"name": "Sapper", "id": "5088-3100-2e95-3847", "hidden": false, "import": true, "targetId": "e0d4-17a0-ac03-cd46", "type": "selectionEntry"},
+      {"name": "Supernatural Investigator", "id": "0df0-3dbd-1a1f-1219", "hidden": false, "import": true, "targetId": "d43c-8ab4-b416-eb51", "type": "selectionEntry"},
+      {"name": "Swordsman", "id": "2df9-a13f-9933-b937", "hidden": false, "import": true, "targetId": "a695-aaea-c7ad-fa71", "type": "selectionEntry"},
+      {"name": "Veteran Hunter", "id": "190a-b968-d2f3-0a3e", "hidden": false, "import": true, "targetId": "71a6-dc78-ab82-36de", "type": "selectionEntry"},
+      {"name": "Agent Provocateur", "id": "9098-45b0-b80f-58f7", "hidden": false, "import": true, "targetId": "56e8-63bd-e221-4431", "type": "selectionEntry"},
+      {"name": "Conscript", "id": "4ab5-ab5f-3107-e3d2", "hidden": false, "import": true, "targetId": "89aa-4808-5814-2663", "type": "selectionEntry"},
+      {"name": "Provincial Soldier", "id": "2c10-5c8a-b6fa-5b52", "hidden": false, "import": true, "targetId": "c004-ab7d-1618-f9eb", "type": "selectionEntry"},
+      {"name": "Coachman", "id": "c34e-708b-8fd5-b0ff", "hidden": false, "import": true, "targetId": "7685-6906-1006-f7c1", "type": "selectionEntry"},
+      {"name": "Light Infantryman", "id": "c71b-aa18-4513-bc11", "hidden": false, "import": true, "targetId": "3083-010b-bc14-c22d", "type": "selectionEntry"},
+      {"name": "Officer", "id": "1214-78ac-8b42-e88e", "hidden": false, "import": true, "targetId": "c724-1052-55ac-963f", "type": "selectionEntry"}
+    ]
+  }
+}

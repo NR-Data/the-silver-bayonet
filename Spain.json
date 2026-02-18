@@ -1,0 +1,423 @@
+{
+  "catalogue": {
+    "name": "Spain",
+    "id": "b338-0e73-c16d-a376",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "f347-af68-8218-d8fc",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "Supernatural Being",
+        "id": "7a5b-a85d-8bb8-b133",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "758d-1a20-6087-ab29",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "Artillerist",
+        "id": "4f7b-474e-2425-6460",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a926-b134-e050-fe94",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "bcc2-fcaf-3f31-4f4a", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Champion of Faith",
+        "id": "53c5-f502-af3c-8b33",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "61bb-104c-0968-dd27",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "b322-0111-8b9c-6401", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Dhamphir",
+        "id": "e48b-bb62-8314-86fc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b258-0eac-f396-1087",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Ally", "id": "8e8e-5b9f-0688-cf55", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"},
+          {"name": "Supernatural Being", "id": "4243-4629-0a74-8481", "hidden": false, "primary": false, "targetId": "7a5b-a85d-8bb8-b133"}
+        ],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Doctor",
+        "id": "9251-6f56-7a0c-8e9b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "91e3-d3b4-f375-2b64",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "b7aa-9024-05b8-d8b7", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Grenadier",
+        "id": "1c66-d872-d320-8a84",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cc2b-e264-2288-ac0a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "f29a-e1f2-97a1-b679", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Guard",
+        "id": "a7ac-c61f-a3ea-7140",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "48c7-2ed1-cc2c-874e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "5229-5296-8e8f-711c", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Heavy Cavalryman",
+        "id": "299a-11ff-9070-44fc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4448-c632-3175-7427",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "262d-8e24-695c-f9ac", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Highlander",
+        "id": "4f8f-0566-05df-dfde",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0b9e-5179-5759-226b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "4ed1-511f-37c6-02d3", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Infantryman",
+        "id": "45f2-b21f-e2b4-0102",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ebdd-e082-edfa-f12c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "fc8b-c882-00c0-5c34", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Irregular",
+        "id": "05b5-f0c9-8c19-9865",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "da06-c63c-6c01-daf9",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "7a3d-85d5-a8ba-1ad3", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Junior Officer",
+        "id": "3a3d-e17e-ed5d-2422",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8c28-34b0-5150-8657",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "1d9c-08af-3722-b9e2", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Light Cavalryman",
+        "id": "64bb-fd99-c3cd-0db4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a1d9-1d71-8c37-55d3",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "16b3-c58c-33b5-b75d", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Marine",
+        "id": "9d84-03cc-e66c-5a38",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ab10-e59d-ca1e-5e48",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "9fbd-aef2-7d44-ac5a", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Native Scout",
+        "id": "36ee-49d9-ee32-acd6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a7f0-b273-9ea7-6838",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "06f3-d88b-2ac4-0cd9", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Occultist",
+        "id": "90b6-4994-c0dd-8ecb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f9c5-cc0e-72dd-3532",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "af1c-6f5a-da41-cdf6", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Officer",
+        "id": "9e10-9120-058e-2cc3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c724-1052-55ac-963f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Leader", "id": "19af-ab66-206d-7b80", "hidden": false, "primary": true, "targetId": "7f0d-d1d2-fafc-4762"}]
+      },
+      {
+        "name": "Rifleman",
+        "id": "fbc5-986a-7797-3d72",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4f70-03f1-633a-e935",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "f06b-9378-c515-6856", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Sailor",
+        "id": "f715-6062-6158-91a5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5bbf-d409-8922-44b6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "b93c-cb4f-fb4a-a788", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Sapper",
+        "id": "913d-2a86-45fb-e239",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e0d4-17a0-ac03-cd46",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "e938-fd64-967b-3447", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Supernatural Investigator",
+        "id": "1d48-86c5-5b05-9313",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d43c-8ab4-b416-eb51",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "5359-b2c9-9013-377b", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Swordsman",
+        "id": "fc8b-1859-f066-2134",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a695-aaea-c7ad-fa71",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "b088-3556-23c9-8b67", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Tactician",
+        "id": "e52b-b205-d3fc-0b42",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "16b6-79a8-e5f7-a126",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "3438-6adf-294a-528e", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Veteran Hunter",
+        "id": "77ad-4838-60d9-b8e0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "71a6-dc78-ab82-36de",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "8952-52ec-a761-f48d", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Vivandiere",
+        "id": "1c35-baec-0bbf-b1cf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7179-86a4-a2b8-f3fa",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "645c-940d-16e7-70c3", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Werebear",
+        "id": "3d35-3e2f-81e8-0ea7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4a9d-555c-bab7-b500",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Ally", "id": "fae0-8ef8-df4d-1658", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"},
+          {"name": "Supernatural Being", "id": "8755-e6a5-ef78-2a4c", "hidden": false, "primary": false, "targetId": "7a5b-a85d-8bb8-b133"}
+        ],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Coachman",
+        "id": "454d-ad54-3240-aed3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7685-6906-1006-f7c1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "2f86-a4f6-0aec-2e5d", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Highwayman",
+        "id": "9304-cf2a-b255-9ffb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2b0f-49c8-cec0-1e7b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "dee9-dbb2-af8d-26e2", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Woodsman",
+        "id": "7196-cdf3-d586-fc13",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2aaf-a6a2-8365-f88b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "c9f5-4012-db29-21a9", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Bedouin Raider",
+        "id": "a4da-6a34-6fa8-9b4d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8733-e806-b194-b6fc",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "62c4-b317-06ec-5fce", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Discovery Serviceman",
+        "id": "cb70-c207-3e3a-32bb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "896e-7b40-4801-2f05",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "fe63-626b-3b73-e420", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Egyptian Conscript",
+        "id": "d7aa-10c4-eaaa-dcbb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "20a1-d9de-8db6-670f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "2c99-c5b9-2a2d-d6ba", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Follower of the Old Gods",
+        "id": "6d78-757b-69f8-4080",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3119-64e9-2664-4a75",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "a4c2-1a57-9418-2dce", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Janissary",
+        "id": "86bf-2612-b95f-a3c1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c894-7a77-270f-ee4f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "c4c4-f3f5-d275-8c56", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Knight Hospitaller",
+        "id": "4732-f04f-ea3e-2c8c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2ae4-1fa9-74a4-7b31",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Core", "id": "8679-f087-a178-9235", "hidden": false, "primary": true, "targetId": "84f4-27ba-0901-7f9b"}]
+      },
+      {
+        "name": "Loup Garou",
+        "id": "00c5-4a22-4114-6276",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3e3a-c786-528c-2b34",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Ally", "id": "fbbe-1172-3f98-b5a3", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"},
+          {"name": "Supernatural Being", "id": "fb48-372e-2420-bd24", "hidden": false, "primary": false, "targetId": "7a5b-a85d-8bb8-b133"}
+        ],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {
+        "name": "Mameluke",
+        "id": "5952-8b5a-c759-ce3d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9e5e-dc5f-ebdd-d7f8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ally", "id": "0d56-9740-8720-9242", "hidden": false, "primary": true, "targetId": "df4a-c929-4c6c-bfe6"}],
+        "modifiers": [{"field": "7573-df2a-2bd0-f646", "type": "increment", "value": 8}]
+      },
+      {"name": "Agent Provocateur", "id": "ee06-278a-bb14-d6f7", "hidden": false, "import": true, "targetId": "56e8-63bd-e221-4431", "type": "selectionEntry"},
+      {"name": "Conscript", "id": "85da-ca43-c5a1-d56d", "hidden": false, "import": true, "targetId": "89aa-4808-5814-2663", "type": "selectionEntry"},
+      {"name": "Light Infantryman", "id": "1d71-f650-5289-be12", "hidden": false, "import": true, "targetId": "3083-010b-bc14-c22d", "type": "selectionEntry"},
+      {"name": "Provincial Soldier", "id": "ea7c-e66c-03e4-6966", "hidden": false, "import": true, "targetId": "c004-ab7d-1618-f9eb", "type": "selectionEntry"}
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "catalogue": {
+    "name": "Calabresi",
+    "id": "3e44-4e7d-a9b6-fa79",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "f347-af68-8218-d8fc",
+    "gameSystemRevision": 6,
+    "library": false,
+    "page": 26,
+    "publicationId": "8413-013f-4c33-66cd",
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {"name": "Calabrian Clergyman", "id": "72b0-b659-90ac-7631", "hidden": false, "import": true, "targetId": "df21-c57a-aea7-f4eb", "type": "selectionEntry"},
+      {
+        "name": "Lupo Mannaro (Calabrian Werewolf)",
+        "id": "f300-b70b-c8b9-9c7a",
+        "hidden": false,
+        "import": true,
+        "targetId": "bc95-6d53-b82a-6167",
+        "type": "selectionEntry"
+      },
+      {"name": "Native Scout", "id": "5b52-f1b2-8195-1db3", "hidden": false, "import": true, "targetId": "a7f0-b273-9ea7-6838", "type": "selectionEntry"},
+      {"name": "Occultist", "id": "b1e5-01b5-a1ce-e776", "hidden": false, "import": true, "targetId": "f9c5-cc0e-72dd-3532", "type": "selectionEntry"},
+      {"name": "Supernatural Investigator", "id": "c547-b63d-3dda-74eb", "hidden": false, "import": true, "targetId": "d43c-8ab4-b416-eb51", "type": "selectionEntry"},
+      {"name": "Veteran Hunter", "id": "5084-ba9c-b971-9504", "hidden": false, "import": true, "targetId": "71a6-dc78-ab82-36de", "type": "selectionEntry"},
+      {"name": "Irregular", "id": "31b9-c0e9-831d-6f2d", "hidden": false, "import": true, "targetId": "da06-c63c-6c01-daf9", "type": "selectionEntry"},
+      {"name": "Tactician", "id": "ae4c-bcb7-5217-305c", "hidden": false, "import": true, "targetId": "16b6-79a8-e5f7-a126", "type": "selectionEntry"},
+      {"name": "Swordsman", "id": "8811-efa4-a923-9df4", "hidden": false, "import": true, "targetId": "a695-aaea-c7ad-fa71", "type": "selectionEntry"},
+      {"name": "Champion of Faith", "id": "f01b-4f53-6dc4-6c3d", "hidden": false, "import": true, "targetId": "61bb-104c-0968-dd27", "type": "selectionEntry"},
+      {"name": "Highwayman", "id": "8f79-b1bc-98b0-2913", "hidden": false, "import": true, "targetId": "2b0f-49c8-cec0-1e7b", "type": "selectionEntry"},
+      {"name": "Woodsman", "id": "4171-749a-88a1-d326", "hidden": false, "import": true, "targetId": "2aaf-a6a2-8365-f88b", "type": "selectionEntry"},
+      {"name": "Agent Provocateur", "id": "3be2-9d45-05a4-7af4", "hidden": false, "import": true, "targetId": "56e8-63bd-e221-4431", "type": "selectionEntry"},
+      {"name": "Officer", "id": "df91-62ad-0236-ca01", "hidden": false, "import": true, "targetId": "c724-1052-55ac-963f", "type": "selectionEntry"}
+    ]
+  }
+}
